@@ -1,0 +1,258 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: #4260cd;
+    font-size: 13px;
+}
+.main{
+    /* background: #336699; */
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 60px; */
+    /* padding-right: 60px; */
+}
+.section-footer{
+    background-image: url("./img/footer-background.png");
+    background-repeat: no-repeat;
+    padding-right: 60px;
+    /* height: 400px; */
+}
+.btn{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    background-color: rgb(255 255 255 / 0%);
+    color: #4260cd;
+    border:none;
+    border-radius: 5pt;
+    font-size:14px;
+    font-weight: bold;
+
+}
+.btn-blue{
+    background-color:#e7f2ff;
+    margin-top: 12px;
+}
+.btn-submit{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    background: #277fff;
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 5pt;
+
+}
+.btn:hover{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    background: #277fff;
+    color: white;
+    border-radius: 5pt;
+    border: none;
+  box-shadow:  0px 9px 14px 0px #a5b8fd8c;
+}
+.hnav{
+    padding-top:25px;
+    padding-bottom: 65px;
+    height: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    /* width: 100%; */
+    /* border:1px solid; */
+    background-image: url("./img/header-background.png");
+    background-repeat: repeat-y;
+
+}
+.titlebar{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    color: #0e7fff;
+    font-weight: bold;
+    width: 100%;
+    
+}
+.title{
+    width: 50%;
+}
+.section-right{
+    padding-top:50px;
+    padding-left: 60px;
+}
+.section-preparations{
+    height: 805px;
+}
+#info{
+    /* padding-top:50px;
+    padding-left: 60px; */
+    /* padding-right: 60px; */
+    background-image: url("./img/img1.png");
+    background-repeat: no-repeat;
+}
+#info2{
+    /* padding-top:50px;
+    padding-left: 60px; */
+    /* padding-right: 60px; */
+    background-image: url("./img/img2.png");
+    background-repeat: no-repeat;
+}
+.info1{
+    
+    /* height: 400px; */
+    /* background-color: antiquewhite; */
+    width: 320px;
+    padding-bottom: 25px;
+    
+}
+.question-text{
+    
+    /* height: 400px; */
+    /* background-color: antiquewhite; */
+    width: 420px;
+    padding-bottom: 25px;
+    line-height: 1.6;
+}
+.emergency-text{
+    width: 420px;
+    padding-bottom: 25px;
+    line-height: 1.6;
+    height: 97px;
+}
+.firsttitle{
+    color: #4260cd;
+    font-size:39px;
+    font-weight: bold;
+}
+.text{
+    padding-top: 20px;
+    color: #4260cd;
+    font-size: 13px;
+    height: 128px;
+    line-height: 1.6
+    
+}
+.yellowBtns{
+    height: 117px;
+
+}
+.scheduleTitle{
+    padding-left: 27px;
+    padding-top:6px;
+    margin-bottom: 20px;
+    
+
+}
+.scheduleSubmit{
+    width: 700px;
+    /* height: 80px; */
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: rgb(255 255 255 / 91%);
+    border-radius: 5pt;
+    border: none;
+  box-shadow:  0px 9px 14px 4px #a5b8fd8c;
+}
+.ico-clock{
+    float: left;
+    padding: 0px;
+}
+.table{
+    width: 100%
+}
+th{
+    text-align: left;
+    vertical-align: middle;
+}
+.tbl-icon{
+    width:27px;
+}
+.ico-clock{
+    padding: 0px;
+    margin:0px;
+}
+
+
+ul li {
+    display: inline-block;
+    padding: 13px;
+    background: white;
+    border: 1px solid white;
+    height: 220px;
+    font-size: 12px;
+  }
+  ul li:hover {
+    display: inline-block;
+    padding: 13px;
+    background: white;
+    /* border: 1px solid; */
+    box-shadow:  0px 9px 14px 0px #a5b8fd8c;
+
+  }
+.cards{
+      padding-left:0px;
+  }
+.img-left  {
+    float: left;    
+    margin: 0 0 0 15px;
+}
+.ico-left  {
+    float: left;    
+    margin: 0 0 0 15px;
+    width: 50px;
+}
+.text-right{
+    padding-top:80px;
+    line-height: 1.6;
+}
+.contactNumber{
+    font-size: 10px;
+}
+.full{
+    width: 100%;
+}
+.contact-card{
+    height:180px;
+    padding:15px;
+    line-height: 0.7;
+}
+.contact-card:hover{
+    box-shadow:  0px 9px 14px 0px #a5b8fd8c;
+
+}
+
+
+.expand-box
+{
+    width: 100%;
+    padding: 0;
+    /* border: 2px solid #BBB; */
+    margin: 7px 0 0 0;
+}
+
+.expand-box-header
+{
+    /* background-color: #BBB; */
+    margin: 0;
+    padding: 0 0 3px 2px;
+}
+.clear{
+    clear:both;
+}
+.footer-vaccination{
+    height: 202px;
+    border: 1px solid rgb(238 243 255);
+    line-height: 1.6;
+    text-align: left;
+}
+.tbl-about{
+    width: 100%
+}
